@@ -1,0 +1,20 @@
+{
+  "name": "wild-horizons",
+  "version": "1.0.0",
+  "description": "a dataset of the planet’s most interesting places",
+  "homepage": "https://github.com/ahmed-skaik/wild-horizons#readme",
+  "bugs": {
+    "url": "https://github.com/ahmed-skaik/wild-horizons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-skaik/wild-horizons.git"
+  },
+  "license": "ISC",
+  "author": "Ahmed Skaik",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
