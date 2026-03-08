@@ -1,0 +1,24 @@
+(req: request  & res: response): the params on the createServer method are both 
+objects, each one of them has it's own params 
+
+ex: 
+res has the param .end
+
+.end accepts three params itslef
+1- data 
+2- encoding type (utf8 by default)
+3- callback function that excutes and the end of the function 
+
+other res param is the .write, but if you used it , you must end your code with 
+.end so the code ends there 
+
+
+request object : 
+gives access to the incoming request, 
+url used 
+header etn 
+any data sent 
+method used (GET, POST, DELETE)
+
+methods of request objest 
+.url
